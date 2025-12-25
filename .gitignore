@@ -1,0 +1,22 @@
+Set-Content .gitignore @"
+
+target/
+.mvn/
+.idea/
+*.iml
+*.iws
+*.ipr
+HELP.md
+
+
+docker/
+images/
+*.sock
+*.cnf
+
+
+.vscode/
+.settings/
+.project
+.classpath
+"@
